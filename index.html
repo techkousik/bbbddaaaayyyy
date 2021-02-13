@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		BDay
+	</title>
+	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1"/> 
+<audio controls autoplay>
+	 <source src='hi2.mp3' type="audio/mpeg" loop="true" autostart="true" width="0" height="0" hidden="true" allow="autoplay">
+</audio>
+	  <style type="text/css">
+	  	/*@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");*/
+body{
+	background-color:black;
+	margin:0px;
+}
+h1 {
+   /*font-size: calc(20px+ 18vh);
+   line-height: calc(30px+22vh); */
+   text-shadow: 0 0 25px red;
+   color: #fff6a9;
+   font-family: "Sacramento", cursive;
+   text-align: center;
+   
+  
+}
+.typewriter {
+  /*color: #fff;*/
+  /*font-family: monospace;*/
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(57, end),
+    blink-caret .5s step-end 2;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 30em }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+ 
+}
+
+.quote {
+   /*font-size: calc(20px+ 18vh);
+   line-height: calc(30px+22vh); */
+   text-shadow: 0 0 25px red;
+   color: #fff6a9;
+   font-family: "Sacramento", cursive;
+   text-align: center;
+   }
+
+
+.visibilityDiv {
+    animation: showBlock 0s 5s forwards;
+     animation-timing-function: linear;
+     visibility: hidden;
+}
+@keyframes showBlock {
+      0%{ }
+    100% { visibility: visible; }
+}
+
+
+
+.Happy {
+  padding: 0vw;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+  background: #222; /* Gray*/
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 7px,
+    rgba(0, 0, 0, 0.8) 9px,
+    rgba(0, 0, 0, 0.8) 13px,
+    transparent 13px
+  );
+}
+#p1 {animation-timing-function: ease;}
+</style>
+</head>
+<body>
+<div class="Happy">
+              
+	<h1 style="font-size:10vh;">Happy Birthday <br> 
+             Riya
+	
+	</h1>
+     	<h2 class="quote typewriter"> "Keep on smiling. Be happy"
+
+ </h2>
+<p style="color:red; text-align:right; font: italic small-caps bold 30px Georgia, serif;" class="visibilityDiv p1">  
+-The liar and cheater!
+ <p>
+</div>
+
+
+
+</body>
+</html>
